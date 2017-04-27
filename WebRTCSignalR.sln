@@ -1,0 +1,110 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRTCSignalR", "WebRTCSignalR\WebRTCSignalR.csproj", "{A48BF01C-EDB6-447E-A064-30DB709E1D82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SfdcApi", "SfdcApi", "{E60AAEDF-E767-47FD-B32E-E70548573AF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SfdcConnector", "SfdcConnector\SfdcConnector.csproj", "{05D07421-2E05-4B11-8E77-F330E8530898}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SfdcConnector.Data", "SfdcConnector.Data\SfdcConnector.Data.csproj", "{BE5BB22B-9FD7-4D3B-BE79-17891FE5B909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesforceConnector.Job", "SalesforceConnector.Job\SalesforceConnector.Job.csproj", "{C81FD7B4-31A9-4C30-868E-820B31F27CC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoT.Common.SemanticLogging", "Common.SemanticLogging\IoT.Common.SemanticLogging.csproj", "{B28464B2-2238-4BF9-AC10-B89ED57B0B96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PtmOnline", "PtmOnline", "{EEC73735-CFA0-496A-B383-203682DCF871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseDeviceSimulator", "CaseDeviceSimulator\CaseDeviceSimulator.csproj", "{C5E9423C-50A7-4453-AB67-B4F6E199E472}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access", "Data Access", "{7DC30AC6-B54B-48FA-8761-58C80DD575FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.DataAccess.Mongo", "Common.DataAccess.Mongo\Common.DataAccess.Mongo.csproj", "{9D6F8FFE-9C5E-4EF2-BA5F-879CE352D67F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A48BF01C-EDB6-447E-A064-30DB709E1D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48BF01C-EDB6-447E-A064-30DB709E1D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48BF01C-EDB6-447E-A064-30DB709E1D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48BF01C-EDB6-447E-A064-30DB709E1D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D07421-2E05-4B11-8E77-F330E8530898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D07421-2E05-4B11-8E77-F330E8530898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D07421-2E05-4B11-8E77-F330E8530898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D07421-2E05-4B11-8E77-F330E8530898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE5BB22B-9FD7-4D3B-BE79-17891FE5B909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5BB22B-9FD7-4D3B-BE79-17891FE5B909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5BB22B-9FD7-4D3B-BE79-17891FE5B909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5BB22B-9FD7-4D3B-BE79-17891FE5B909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C81FD7B4-31A9-4C30-868E-820B31F27CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C81FD7B4-31A9-4C30-868E-820B31F27CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C81FD7B4-31A9-4C30-868E-820B31F27CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C81FD7B4-31A9-4C30-868E-820B31F27CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28464B2-2238-4BF9-AC10-B89ED57B0B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28464B2-2238-4BF9-AC10-B89ED57B0B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28464B2-2238-4BF9-AC10-B89ED57B0B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28464B2-2238-4BF9-AC10-B89ED57B0B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E9423C-50A7-4453-AB67-B4F6E199E472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E9423C-50A7-4453-AB67-B4F6E199E472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E9423C-50A7-4453-AB67-B4F6E199E472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E9423C-50A7-4453-AB67-B4F6E199E472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D6F8FFE-9C5E-4EF2-BA5F-879CE352D67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D6F8FFE-9C5E-4EF2-BA5F-879CE352D67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D6F8FFE-9C5E-4EF2-BA5F-879CE352D67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D6F8FFE-9C5E-4EF2-BA5F-879CE352D67F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A48BF01C-EDB6-447E-A064-30DB709E1D82} = {EEC73735-CFA0-496A-B383-203682DCF871}
+		{05D07421-2E05-4B11-8E77-F330E8530898} = {E60AAEDF-E767-47FD-B32E-E70548573AF8}
+		{BE5BB22B-9FD7-4D3B-BE79-17891FE5B909} = {7DC30AC6-B54B-48FA-8761-58C80DD575FC}
+		{C81FD7B4-31A9-4C30-868E-820B31F27CC7} = {E60AAEDF-E767-47FD-B32E-E70548573AF8}
+		{B28464B2-2238-4BF9-AC10-B89ED57B0B96} = {E60AAEDF-E767-47FD-B32E-E70548573AF8}
+		{C5E9423C-50A7-4453-AB67-B4F6E199E472} = {E60AAEDF-E767-47FD-B32E-E70548573AF8}
+		{9D6F8FFE-9C5E-4EF2-BA5F-879CE352D67F} = {7DC30AC6-B54B-48FA-8761-58C80DD575FC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://onactuate-ts.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WebRTCSignalR\\WebRTCSignalR.csproj
+		SccProjectTopLevelParentUniqueName1 = WebRTCSignalR.sln
+		SccProjectName1 = WebRTCSignalR
+		SccLocalPath1 = WebRTCSignalR
+		SccProjectUniqueName2 = SfdcConnector\\SfdcConnector.csproj
+		SccProjectTopLevelParentUniqueName2 = WebRTCSignalR.sln
+		SccProjectName2 = SfdcConnector
+		SccLocalPath2 = SfdcConnector
+		SccProjectUniqueName3 = SfdcConnector.Data\\SfdcConnector.Data.csproj
+		SccProjectTopLevelParentUniqueName3 = WebRTCSignalR.sln
+		SccProjectName3 = SfdcConnector.Data
+		SccLocalPath3 = SfdcConnector.Data
+		SccProjectUniqueName4 = SalesforceConnector.Job\\SalesforceConnector.Job.csproj
+		SccProjectTopLevelParentUniqueName4 = WebRTCSignalR.sln
+		SccProjectName4 = SalesforceConnector.Job
+		SccLocalPath4 = SalesforceConnector.Job
+		SccProjectUniqueName5 = Common.SemanticLogging\\IoT.Common.SemanticLogging.csproj
+		SccProjectTopLevelParentUniqueName5 = WebRTCSignalR.sln
+		SccProjectName5 = Common.SemanticLogging
+		SccLocalPath5 = Common.SemanticLogging
+		SccProjectUniqueName6 = CaseDeviceSimulator\\CaseDeviceSimulator.csproj
+		SccProjectTopLevelParentUniqueName6 = WebRTCSignalR.sln
+		SccProjectName6 = CaseDeviceSimulator
+		SccLocalPath6 = CaseDeviceSimulator
+		SccProjectUniqueName7 = Common.DataAccess.Mongo\\Common.DataAccess.Mongo.csproj
+		SccProjectTopLevelParentUniqueName7 = WebRTCSignalR.sln
+		SccProjectName7 = Common.DataAccess.Mongo
+		SccLocalPath7 = Common.DataAccess.Mongo
+	EndGlobalSection
+EndGlobal
